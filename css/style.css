@@ -93,12 +93,6 @@ img {
 	color: white;
 }
 
-@media (min-width: 768px) {
-	.header {
-		padding: 2rem 0;
-	}
-}
-
 .contenido-header {
 	display: flex;
 	flex-direction: column;
@@ -161,8 +155,12 @@ img {
 		text-align: right;
 	}
 
+	.eslogan h2 {
+		font-size: 5rem;
+	}
+
 	.eslogan p {
-		font-size: 1.6rem;
+		font-size: 1.8rem;
 	}
 }
 
@@ -207,7 +205,8 @@ img {
 	}
 
 	.contacto a {
-		font-size: 1.6rem;
+		font-weight: 300;
+		font-size: 2rem;
 	}
 }
 
@@ -239,14 +238,15 @@ img {
 		padding: 3rem 4rem 4rem 4rem;
 		text-align: left;
 
-		z-index: 1;
-		transform: translate(22rem, 15rem);
-
+		transform: translate(40rem, 15rem);
 	}
 
 	.nosotros-texto h2 {
 		font-size: 5rem
 	}
 
-
+	.nosotros-imagen img {
+		display: block;
+		margin: 0 auto;
+	}
 }
