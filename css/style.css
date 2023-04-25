@@ -210,3 +210,43 @@ img {
 		font-size: 1.6rem;
 	}
 }
+
+/* !Sobre nosotros */
+.nosotros {
+	display: grid;
+}
+
+.nosotros-texto {
+	text-align: center;
+}
+
+.nosotros-texto h2 {
+	font-size: 3rem;
+}
+
+
+@media (min-width: 768px) {
+
+	.nosotros {
+		grid-template-rows: 1fr auto;
+		margin-top: -10rem;
+		width: 1200px;
+	}
+
+	.nosotros-texto {
+		background-color: var(--blanco);
+		width: 70rem;
+		padding: 3rem 4rem 4rem 4rem;
+		text-align: left;
+
+		z-index: 1;
+		transform: translate(22rem, 15rem);
+
+	}
+
+	.nosotros-texto h2 {
+		font-size: 5rem
+	}
+
+
+}
