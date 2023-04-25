@@ -386,8 +386,6 @@ img {
 	grid-row: 2 / 4;
 }
 
-
-
 @media (min-width: 768px) {
 	.galeria-imagenes {
 		display: grid;
@@ -413,3 +411,19 @@ img {
 }
 
 /* !Footer */
+.footer {
+	padding: 5rem 0 0 0;
+	background-image: url("../img/footer_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: var(--blanco);
+}
+
+.copyright {
+	margin: 5rem 0 0 0;
+	text-align: center;
+	padding: 1rem;
+	font-size: 2rem;
+	background-color: var(--negro);
+}
